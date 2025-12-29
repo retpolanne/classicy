@@ -4,14 +4,14 @@ import {ClassicyControlPanels} from '@/SystemFolder/ControlPanels/ClassicyContro
 import {Finder} from '@/SystemFolder/Finder/Finder'
 import {getClassicyAboutWindow} from '@/SystemFolder/SystemResources/AboutWindow/ClassicyAboutWindow'
 import {ClassicyContextualMenu} from '@/SystemFolder/SystemResources/ContextualMenu/ClassicyContextualMenu'
-import * as classicyDesktopStyle from './ClassicyDesktop.scss'
+import './ClassicyDesktop.scss'
 import {ClassicyDesktopIcon} from '@/SystemFolder/SystemResources/Desktop/ClassicyDesktopIcon'
 import {ClassicyDesktopMenuBar} from '@/SystemFolder/SystemResources/Desktop/MenuBar/ClassicyDesktopMenuBar'
 import {ClassicyMenuItem} from '@/SystemFolder/SystemResources/Menu/ClassicyMenu'
 import classNames from 'classnames'
 import macosIcon from 'img/icons/system/macos.png'
 import React, {CSSProperties, useState} from 'react'
-import * as fonts from '../../ControlPanels/AppearanceManager/styles/fonts.scss'
+import '../../ControlPanels/AppearanceManager/styles/fonts.scss'
 
 interface ClassicyDesktopProps {
     children?: any

@@ -87,6 +87,7 @@ const config: webpack.Configuration = {
             '.ts',
             '.js',
             '.json',
+            '.scss',
             '...'
         ]
     }
