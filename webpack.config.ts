@@ -81,7 +81,6 @@ const config: webpack.Configuration = {
             'snd': path.resolve("./", 'assets', 'sounds'),
             'img': path.resolve("./", 'assets', 'img'),
             '@': path.resolve("./", 'src'),
-            'assets': path.resolve("./", 'assets'),
         },
         extensions: [
             '.tsx',

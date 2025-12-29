@@ -1,7 +1,7 @@
 'use client'
 
 import {ClassicyStoreSystemAppWindow} from "@/SystemFolder/ControlPanels/AppManager/ClassicyAppManager";
-import fileIcon from 'assets/img/icons/system/files/file.png'
+import fileIcon from 'img/icons/system/files/file.png'
 import {useDesktop, useDesktopDispatch} from '@/SystemFolder/ControlPanels/AppManager/ClassicyAppManagerContext'
 import {useSoundDispatch} from '@/SystemFolder/ControlPanels/SoundManager/ClassicySoundManagerContext'
 import {ClassicyContextualMenu} from '@/SystemFolder/SystemResources/ContextualMenu/ClassicyContextualMenu'
