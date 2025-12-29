@@ -11,7 +11,7 @@ import {ClassicyMenuItem} from '@/SystemFolder/SystemResources/Menu/ClassicyMenu
 import classNames from 'classnames'
 import macosIcon from 'img/icons/system/macos.png'
 import React, {CSSProperties, useState} from 'react'
-import '../../ControlPanels/AppearanceManager/styles/fonts.scss'
+import * as fonts from '../../ControlPanels/AppearanceManager/styles/fonts.scss'
 
 interface ClassicyDesktopProps {
     children?: any
