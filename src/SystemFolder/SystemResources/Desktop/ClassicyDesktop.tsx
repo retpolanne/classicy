@@ -4,7 +4,7 @@ import {ClassicyControlPanels} from '@/SystemFolder/ControlPanels/ClassicyContro
 import {Finder} from '@/SystemFolder/Finder/Finder'
 import {getClassicyAboutWindow} from '@/SystemFolder/SystemResources/AboutWindow/ClassicyAboutWindow'
 import {ClassicyContextualMenu} from '@/SystemFolder/SystemResources/ContextualMenu/ClassicyContextualMenu'
-import './ClassicyDesktop.scss'
+import * as classicyDesktopStyle from './ClassicyDesktop.scss'
 import {ClassicyDesktopIcon} from '@/SystemFolder/SystemResources/Desktop/ClassicyDesktopIcon'
 import {ClassicyDesktopMenuBar} from '@/SystemFolder/SystemResources/Desktop/MenuBar/ClassicyDesktopMenuBar'
 import {ClassicyMenuItem} from '@/SystemFolder/SystemResources/Menu/ClassicyMenu'
